@@ -77,13 +77,27 @@ div {
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.grid {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: #F1F0EA;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
 .footer {
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem;
+    width: 76vw;
     color: #534B52;
     background-color: #E0DDCF;
+    text-align: center;
 }
 
